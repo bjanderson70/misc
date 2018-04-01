@@ -4,13 +4,14 @@
 #
 
 unix command line to export a SFDC report to CSV (username more be Classic Mode NOT Lightning)
+**Note:** you will need to unzip **csvdiff_exe.zip** in same directory level (WINDOWS ONLY)
 
  **Introduction**
 
 This script allows you to easily export SFDC reports to CSV by using the command line, and standard tools like curl, awk, sed, etc.
 Most errors encountered are associated with an issue with user-id or password+securityToken (PasswordSecurityToken)
 
-NOTE: Should you encounter issues, more than likely stem from an invalid UID and/or Password+SecurityToken; the latter being more dominant.
+**NOTE**: Should you encounter issues, more than likely stem from an invalid UID and/or Password+SecurityToken; the latter being more dominant.
 
 **PROCESS**
 
